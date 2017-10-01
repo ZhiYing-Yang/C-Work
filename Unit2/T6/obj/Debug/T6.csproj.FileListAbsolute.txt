@@ -1,0 +1,7 @@
+E:\C#Work\Unit2\T6\bin\Debug\T6.exe.config
+E:\C#Work\Unit2\T6\bin\Debug\T6.exe
+E:\C#Work\Unit2\T6\bin\Debug\T6.pdb
+E:\C#Work\Unit2\T6\obj\Debug\T6.csprojResolveAssemblyReference.cache
+E:\C#Work\Unit2\T6\obj\Debug\T6.csproj.CoreCompileInputs.cache
+E:\C#Work\Unit2\T6\obj\Debug\T6.exe
+E:\C#Work\Unit2\T6\obj\Debug\T6.pdb
