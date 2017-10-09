@@ -23,6 +23,24 @@ namespace A_2_1
         public MainWindow()
         {
             InitializeComponent();
+            passBox.PasswordChanged += delegate
+            {
+                if (showCheck.IsChecked == true)
+                {
+                    showLabel.Content = passBox.Password;
+                }
+                else
+                {
+                    showLabel.Content = "";
+                }
+            };
+
+            showCheck.Checked += delegate {
+                showLabel.Content = passBox.Password;
+            };
+            showCheck.Unchecked += delegate {
+                showLabel.Content = "";
+            };
         }
     }
 }
