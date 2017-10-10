@@ -8,12 +8,18 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid>
         <GroupBox Header="请选择运算类型" Margin="0,22,0,206" BorderThickness="1">
-            <StackPanel Orientation="Horizontal" >
+            <StackPanel Orientation="Horizontal" Name="stackPanel1">
+                <StackPanel.Resources>
+                    <Style TargetType="RadioButton">
+                        
+                    </Style>
+                </StackPanel.Resources>
                 <RadioButton Content="加法" IsChecked="True" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20"/>
                 <RadioButton Content="减法" HorizontalAlignment="Left"  VerticalAlignment="Center" Margin="20"/>
                 <RadioButton Content="乘法" HorizontalAlignment="Left"  VerticalAlignment="Center" Margin="20"/>
                 <RadioButton Content="除法" HorizontalAlignment="Left"  VerticalAlignment="Center" Margin="20"/>
                 <RadioButton Content="取模" HorizontalAlignment="Left"  VerticalAlignment="Center" Margin="20"/>
+                
             </StackPanel>
         </GroupBox>
         <Label Name="operatorZi" Content="加法" HorizontalAlignment="Left" Margin="10,113,0,0" VerticalAlignment="Top"/>
