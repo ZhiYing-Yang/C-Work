@@ -7,9 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Label Content="密码：" HorizontalAlignment="Left" Margin="91,54,0,0" VerticalAlignment="Top" Height="25" Width="46" RenderTransformOrigin="0.929,0.5"/>
-        <PasswordBox Name="passBox" HorizontalAlignment="Left" Margin="142,54,0,240" Width="203" PasswordChar="*"/>
-        <CheckBox Name="showCheck" Content="CheckBox" HorizontalAlignment="Left" Margin="379,54,0,0" VerticalAlignment="Top" Height="25"/>
+        <Label Content="密码：" HorizontalAlignment="Left" Margin="91,57,0,0" VerticalAlignment="Top" Height="22" Width="46" RenderTransformOrigin="0.929,0.5"/>
+        <PasswordBox Name="passBox" VerticalContentAlignment="Center" HorizontalAlignment="Left"  Margin="142 57 0 230" Width="214" PasswordChar="*"/>
+        <CheckBox Name="showCheck" Content="显示密码" HorizontalAlignment="Left" Margin="370,63,0,0" VerticalAlignment="Top" Height="16"/>
         <StackPanel HorizontalAlignment="Left" Height="116" Margin="80,152,0,0" VerticalAlignment="Top" Width="375">
             <Label Name="showLabel" Content="" Margin="35,45"/>
         </StackPanel>
