@@ -7,6 +7,18 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Label Content="参数" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="1.15,2.084" Margin="18,10,0,0"></Label>
+        <Label x:Name="min" Content="最小：" HorizontalAlignment="Left" Margin="37,41,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="83,43,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="56"/>
+        <Label x:Name="max" Content="最大：" HorizontalAlignment="Left" Margin="173,41,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="219,43,0,0" TextWrapping="Wrap" Text="100" VerticalAlignment="Top" Width="53"/>
+        <Label x:Name="label" Content="定时器间隔（毫秒）：" HorizontalAlignment="Left" Margin="37,88,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="interval" HorizontalAlignment="Left" Height="23" Margin="219,88,0,0" TextWrapping="Wrap" Text="500" VerticalAlignment="Top" Width="53"/>
+        <RadioButton x:Name="zheng" Content="随机生成整数" HorizontalAlignment="Left" Margin="327,54,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="shi" Content="随机生成实数" HorizontalAlignment="Left" Margin="327,85,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="start" Content="开始" HorizontalAlignment="Left" Margin="144,132,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="button" Content="停止" HorizontalAlignment="Left" Margin="258,132,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label x:Name="label1" Content="结果" HorizontalAlignment="Left" Margin="18,193,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="result" Content="Label" HorizontalAlignment="Left" Margin="200,218,0,0" VerticalAlignment="Top" FontSize="30"/>
     </Grid>
 </Window>
