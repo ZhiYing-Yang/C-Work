@@ -1,0 +1,6 @@
+E:\MyC#\A_2_4\bin\Debug\A_2_4.exe.config
+E:\MyC#\A_2_4\bin\Debug\A_2_4.exe
+E:\MyC#\A_2_4\bin\Debug\A_2_4.pdb
+E:\MyC#\A_2_4\obj\Debug\A_2_4.csproj.CoreCompileInputs.cache
+E:\MyC#\A_2_4\obj\Debug\A_2_4.exe
+E:\MyC#\A_2_4\obj\Debug\A_2_4.pdb

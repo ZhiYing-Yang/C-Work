@@ -1,0 +1,12 @@
+E:\MyC#\T2\bin\Debug\T2.exe.config
+E:\MyC#\T2\bin\Debug\T2.exe
+E:\MyC#\T2\bin\Debug\T2.pdb
+E:\MyC#\T2\obj\Debug\T2.csproj.CoreCompileInputs.cache
+E:\MyC#\T2\obj\Debug\T2.exe
+E:\MyC#\T2\obj\Debug\T2.pdb
+E:\MyC#\unit3\T2\bin\Debug\T2.exe.config
+E:\MyC#\unit3\T2\bin\Debug\T2.exe
+E:\MyC#\unit3\T2\bin\Debug\T2.pdb
+E:\MyC#\unit3\T2\obj\Debug\T2.csproj.CoreCompileInputs.cache
+E:\MyC#\unit3\T2\obj\Debug\T2.exe
+E:\MyC#\unit3\T2\obj\Debug\T2.pdb

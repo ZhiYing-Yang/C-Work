@@ -13,3 +13,17 @@ E:\C#Work\C-Work\A_2\A_2_2\obj\Debug\A_2_2.csproj.GenerateResource.Cache
 E:\C#Work\C-Work\A_2\A_2_2\obj\Debug\A_2_2.csproj.CoreCompileInputs.cache
 E:\C#Work\C-Work\A_2\A_2_2\obj\Debug\A_2_2.exe
 E:\C#Work\C-Work\A_2\A_2_2\obj\Debug\A_2_2.pdb
+E:\MyC#\A_2_2\bin\Debug\A_2_2.exe.config
+E:\MyC#\A_2_2\bin\Debug\A_2_2.exe
+E:\MyC#\A_2_2\bin\Debug\A_2_2.pdb
+E:\MyC#\A_2_2\obj\Debug\MainWindow.g.cs
+E:\MyC#\A_2_2\obj\Debug\App.g.cs
+E:\MyC#\A_2_2\obj\Debug\A_2_2_MarkupCompile.cache
+E:\MyC#\A_2_2\obj\Debug\A_2_2_MarkupCompile.lref
+E:\MyC#\A_2_2\obj\Debug\MainWindow.baml
+E:\MyC#\A_2_2\obj\Debug\A_2_2.g.resources
+E:\MyC#\A_2_2\obj\Debug\A_2_2.Properties.Resources.resources
+E:\MyC#\A_2_2\obj\Debug\A_2_2.csproj.GenerateResource.Cache
+E:\MyC#\A_2_2\obj\Debug\A_2_2.csproj.CoreCompileInputs.cache
+E:\MyC#\A_2_2\obj\Debug\A_2_2.exe
+E:\MyC#\A_2_2\obj\Debug\A_2_2.pdb

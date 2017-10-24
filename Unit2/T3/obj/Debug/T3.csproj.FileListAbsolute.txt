@@ -1,0 +1,13 @@
+E:\C#Work\Unit2\T3\bin\Debug\T3.exe.config
+E:\C#Work\Unit2\T3\bin\Debug\T3.exe
+E:\C#Work\Unit2\T3\bin\Debug\T3.pdb
+E:\C#Work\Unit2\T3\obj\Debug\T3.csprojResolveAssemblyReference.cache
+E:\C#Work\Unit2\T3\obj\Debug\T3.csproj.CoreCompileInputs.cache
+E:\C#Work\Unit2\T3\obj\Debug\T3.exe
+E:\C#Work\Unit2\T3\obj\Debug\T3.pdb
+E:\MyC#\Unit2\T3\bin\Debug\T3.exe.config
+E:\MyC#\Unit2\T3\bin\Debug\T3.exe
+E:\MyC#\Unit2\T3\bin\Debug\T3.pdb
+E:\MyC#\Unit2\T3\obj\Debug\T3.csproj.CoreCompileInputs.cache
+E:\MyC#\Unit2\T3\obj\Debug\T3.exe
+E:\MyC#\Unit2\T3\obj\Debug\T3.pdb
