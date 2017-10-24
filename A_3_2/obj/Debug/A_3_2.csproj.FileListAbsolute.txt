@@ -1,0 +1,15 @@
+E:\C#Work\A_3_2\bin\Debug\A_3_2.exe.config
+E:\C#Work\A_3_2\bin\Debug\A_3_2.exe
+E:\C#Work\A_3_2\bin\Debug\A_3_2.pdb
+E:\C#Work\A_3_2\obj\Debug\A_3_2.csprojResolveAssemblyReference.cache
+E:\C#Work\A_3_2\obj\Debug\MainWindow.g.cs
+E:\C#Work\A_3_2\obj\Debug\App.g.cs
+E:\C#Work\A_3_2\obj\Debug\A_3_2_MarkupCompile.cache
+E:\C#Work\A_3_2\obj\Debug\A_3_2_MarkupCompile.lref
+E:\C#Work\A_3_2\obj\Debug\MainWindow.baml
+E:\C#Work\A_3_2\obj\Debug\A_3_2.g.resources
+E:\C#Work\A_3_2\obj\Debug\A_3_2.Properties.Resources.resources
+E:\C#Work\A_3_2\obj\Debug\A_3_2.csproj.GenerateResource.Cache
+E:\C#Work\A_3_2\obj\Debug\A_3_2.csproj.CoreCompileInputs.cache
+E:\C#Work\A_3_2\obj\Debug\A_3_2.exe
+E:\C#Work\A_3_2\obj\Debug\A_3_2.pdb
