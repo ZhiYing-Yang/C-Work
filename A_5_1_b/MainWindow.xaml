@@ -1,0 +1,21 @@
+﻿<Window x:Class="A_5_1_b.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:A_5_1_b"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Label Content="学生基本信息" HorizontalAlignment="Left" Margin="35,37,0,0" VerticalAlignment="Top"/>
+        <Label Content="姓名：" HorizontalAlignment="Left" Margin="63,68,0,0" VerticalAlignment="Top"/>
+        <Label Content="基本信息：" HorizontalAlignment="Left" Margin="39,99,0,0" VerticalAlignment="Top"/>
+        <Label Content="其他信息：" HorizontalAlignment="Left" Margin="39,130,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="nameText" HorizontalAlignment="Left" Height="23" Margin="115,71,0,0" TextWrapping="Wrap" VerticalContentAlignment="Center" VerticalAlignment="Top" Width="260"/>
+        <TextBox Name="essentialText" HorizontalAlignment="Left" Height="23" Margin="115,102,0,0" TextWrapping="Wrap" VerticalContentAlignment="Center" VerticalAlignment="Top" Width="260"/>
+        <TextBox Name="otherText" HorizontalAlignment="Left" Height="23" Margin="115,134,0,0" TextWrapping="Wrap" VerticalContentAlignment="Center" VerticalAlignment="Top" Width="260"/>
+        <Button Name="autoButton" Content="自动填写文本框" HorizontalAlignment="Left" Margin="76,201,0,0" VerticalAlignment="Top" Width="94"/>
+        <Button Name="boxButton" Content="弹出对话框" HorizontalAlignment="Left" Margin="215,201,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Name="windowButton" Content="弹出新窗体" HorizontalAlignment="Left" Margin="335,201,0,0" VerticalAlignment="Top" Width="75"/>
+    </Grid>
+</Window>
