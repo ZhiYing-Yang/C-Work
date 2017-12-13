@@ -1,0 +1,41 @@
+﻿<Window x:Class="WpfApplication4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="310" Width="320" WindowStartupLocation="CenterScreen">
+    <StackPanel Orientation="Vertical" Margin="40 30 40 20" HorizontalAlignment="Center">
+        <StackPanel Orientation="Horizontal">
+            <Button Content="生成试题并开始计时" Margin="0 0 5 0" Click="Button_Click"/>
+            <Label Name="lab" Content="剩余时间：25秒"/>
+        </StackPanel>
+        <GroupBox Header="试题" Width="230" Height="135" Margin="0 18">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"></ColumnDefinition>
+                    <ColumnDefinition Width="3*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Label Name="lab1"/>
+                <TextBox Grid.Column="1" Name="text1" Height="20"/>
+                
+                <Label Grid.Row="1"  Name="lab2"/>
+                <TextBox Grid.Row="1" Grid.Column="1" Name="text2" Height="20"/>
+                
+                <Label Grid.Row="2"  Name="lab3"/>
+                <TextBox Grid.Row="2" Grid.Column="1" Name="text3" Height="20"/>
+                
+                <Label Grid.Row="3"  Name="lab4"/>
+                <TextBox Grid.Row="3" Grid.Column="1" Name="text4" Height="20"/>
+            </Grid>
+        </GroupBox>
+        <Button Name="btn" Content="确认提交" Width="70" Padding="2" Click="Button_Click_1" IsEnabled="False"/>
+    </StackPanel>
+</Window>
