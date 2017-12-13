@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfApplication1.MoveTesting"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication1"
+        mc:Ignorable="d"
+        Title="MoveTesting" Height="300" Width="300" WindowStartupLocation="CenterScreen">
+    <StackPanel  Height="300" Width="300">
+        <WrapPanel  Height="230" Width="295">
+            <Border Name="border" Margin="120 100 0 0" Width="auto" Height="auto" BorderBrush="DarkOliveGreen" BorderThickness="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Label Content="字符串" Width="auto" Height="auto"/>
+            </Border>
+        </WrapPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Button.Click="StackPanel_Click">
+            <Button Content="左移" Width="auto" Height="auto" Padding="2" Margin="15 2 15 2"/>
+            <Button Content="右移" Width="auto" Height="auto" Padding="2" Margin="15 2 15 2"/>
+            <Button Content="上移" Width="auto" Height="auto" Padding="2" Margin="15 2 15 2"/>
+            <Button Content="下移" Width="auto" Height="auto" Padding="2" Margin="15 2 15 2"/>
+        </StackPanel>
+    </StackPanel>
+</Window>
