@@ -1,0 +1,17 @@
+E:\C#Work\Test2\bin\Debug\Test2.exe.config
+E:\C#Work\Test2\bin\Debug\Test2.exe
+E:\C#Work\Test2\bin\Debug\Test2.pdb
+E:\C#Work\Test2\obj\Debug\Test2.csprojResolveAssemblyReference.cache
+E:\C#Work\Test2\obj\Debug\LoginWindow.g.cs
+E:\C#Work\Test2\obj\Debug\MainWindow.g.cs
+E:\C#Work\Test2\obj\Debug\App.g.cs
+E:\C#Work\Test2\obj\Debug\Test2_MarkupCompile.cache
+E:\C#Work\Test2\obj\Debug\Test2_MarkupCompile.lref
+E:\C#Work\Test2\obj\Debug\LoginWindow.baml
+E:\C#Work\Test2\obj\Debug\MainWindow.baml
+E:\C#Work\Test2\obj\Debug\Test2.g.resources
+E:\C#Work\Test2\obj\Debug\Test2.Properties.Resources.resources
+E:\C#Work\Test2\obj\Debug\Test2.csproj.GenerateResource.Cache
+E:\C#Work\Test2\obj\Debug\Test2.csproj.CoreCompileInputs.cache
+E:\C#Work\Test2\obj\Debug\Test2.exe
+E:\C#Work\Test2\obj\Debug\Test2.pdb

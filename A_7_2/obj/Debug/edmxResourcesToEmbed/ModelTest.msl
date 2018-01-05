@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DatabaseTestModelStoreContainer" CdmEntityContainer="DatabaseTestEntities1">
+    <EntitySetMapping Name="Domitory">
+      <EntityTypeMapping TypeName="DatabaseTestModel.Domitory">
+        <MappingFragment StoreEntitySet="Domitory">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="宿舍号" ColumnName="宿舍号" />
+          <ScalarProperty Name="人数上限" ColumnName="人数上限" />
+          <ScalarProperty Name="所属院系" ColumnName="所属院系" />
+          <ScalarProperty Name="成员数" ColumnName="成员数" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Student">
+      <EntityTypeMapping TypeName="DatabaseTestModel.Student">
+        <MappingFragment StoreEntitySet="Student">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="学号" ColumnName="学号" />
+          <ScalarProperty Name="姓名" ColumnName="姓名" />
+          <ScalarProperty Name="性别" ColumnName="性别" />
+          <ScalarProperty Name="出生日期" ColumnName="出生日期" />
+          <ScalarProperty Name="专业编码" ColumnName="专业编码" />
+          <ScalarProperty Name="宿舍号" ColumnName="宿舍号" />
+          <ScalarProperty Name="照片" ColumnName="照片" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Subject">
+      <EntityTypeMapping TypeName="DatabaseTestModel.Subject">
+        <MappingFragment StoreEntitySet="Subject">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="编码" ColumnName="编码" />
+          <ScalarProperty Name="名称" ColumnName="名称" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

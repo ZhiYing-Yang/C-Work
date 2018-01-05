@@ -1,0 +1,39 @@
+﻿<Window x:Class="Test2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Test2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="530">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Label>要操作的文字为：</Label>
+            <Label Name="actionWords">你好，我叫小明</Label>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" VerticalAlignment="Center">
+            <Label>红色：</Label>
+            <Slider  Name="redSlider" Minimum="0" Maximum="255" Width="460"></Slider>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Orientation="Horizontal" VerticalAlignment="Center">
+            <Label>绿色：</Label>
+            <Slider  Name="greenSlider"  Minimum="0" Maximum="255" Width="460"></Slider>
+        </StackPanel>
+        <StackPanel Grid.Row="3" Orientation="Horizontal" VerticalAlignment="Center">
+            <Label>蓝色：</Label>
+            <Slider  Name="blueSlider"  Minimum="0" Maximum="255" Width="460"></Slider>
+        </StackPanel>
+        <StackPanel Grid.Row="4" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Button Name="bigButton" Content="增大字体"/>
+            <Button Name="smallButton" Margin="20, 0, 20, 0" Content="缩小字体"/>
+            <Button Name="colorButton" Content="改变字体颜色"/>
+        </StackPanel>
+    </Grid>
+</Window>

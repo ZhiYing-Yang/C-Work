@@ -1,0 +1,7 @@
+E:\C#Work\wangbaTest1\bin\Debug\wangbaTest1.exe.config
+E:\C#Work\wangbaTest1\bin\Debug\wangbaTest1.exe
+E:\C#Work\wangbaTest1\bin\Debug\wangbaTest1.pdb
+E:\C#Work\wangbaTest1\obj\Debug\wangbaTest1.csprojResolveAssemblyReference.cache
+E:\C#Work\wangbaTest1\obj\Debug\wangbaTest1.csproj.CoreCompileInputs.cache
+E:\C#Work\wangbaTest1\obj\Debug\wangbaTest1.exe
+E:\C#Work\wangbaTest1\obj\Debug\wangbaTest1.pdb

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DatabaseTestModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Domitory">
+    <Key>
+      <PropertyRef Name="宿舍号" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="宿舍号" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="人数上限" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="所属院系" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="成员数" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="学号" />
+      <PropertyRef Name="专业编码" />
+      <PropertyRef Name="宿舍号" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="学号" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="姓名" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="性别" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="出生日期" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="专业编码" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="宿舍号" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="照片" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Subject">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="编码" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="名称" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="DatabaseTestEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Domitory" EntityType="Self.Domitory" />
+    <EntitySet Name="Student" EntityType="Self.Student" />
+    <EntitySet Name="Subject" EntityType="Self.Subject" />
+  </EntityContainer>
+</Schema>

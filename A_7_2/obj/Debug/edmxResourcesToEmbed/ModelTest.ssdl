@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DatabaseTestModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Domitory">
+    <Key>
+      <PropertyRef Name="宿舍号" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="宿舍号" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="人数上限" Type="nvarchar" MaxLength="50" />
+    <Property Name="所属院系" Type="nvarchar" MaxLength="50" />
+    <Property Name="成员数" Type="int" />
+  </EntityType>
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="学号" />
+      <PropertyRef Name="专业编码" />
+      <PropertyRef Name="宿舍号" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="学号" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="姓名" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="性别" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="出生日期" Type="nvarchar" MaxLength="50" />
+    <Property Name="专业编码" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="宿舍号" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="照片" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Subject">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="编码" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="名称" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="DatabaseTestModelStoreContainer">
+    <EntitySet Name="Domitory" EntityType="Self.Domitory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Student" EntityType="Self.Student" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Subject" EntityType="Self.Subject" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

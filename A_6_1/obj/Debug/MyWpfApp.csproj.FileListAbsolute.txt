@@ -1,0 +1,17 @@
+d:\documents\visual studio 2015\Projects\MyWpfApp\MyWpfApp\bin\Debug\MyWpfApp.exe.config
+C:\Users\Administrator\Desktop\MyWpfApp\MyWpfApp\bin\Debug\MyWpfApp.exe.config
+C:\Users\Administrator\Desktop\MyWpfApp\MyWpfApp\bin\Debug\MyWpfApp.exe
+C:\Users\Administrator\Desktop\MyWpfApp\MyWpfApp\bin\Debug\MyWpfApp.pdb
+C:\Users\Administrator\Desktop\MyWpfApp\MyWpfApp\obj\Debug\MyWpfApp.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\MyWpfApp\MyWpfApp\obj\Debug\MainWindow.g.cs
+C:\Users\Administrator\Desktop\MyWpfApp\MyWpfApp\obj\Debug\App.g.cs
+C:\Users\Administrator\Desktop\MyWpfApp\MyWpfApp\obj\Debug\MyWpfApp_MarkupCompile.cache
+C:\Users\Administrator\Desktop\MyWpfApp\MyWpfApp\obj\Debug\MyWpfApp_MarkupCompile.lref
+C:\Users\Administrator\Desktop\MyWpfApp\MyWpfApp\obj\Debug\App.baml
+C:\Users\Administrator\Desktop\MyWpfApp\MyWpfApp\obj\Debug\MainWindow.baml
+C:\Users\Administrator\Desktop\MyWpfApp\MyWpfApp\obj\Debug\MyWpfApp.g.resources
+C:\Users\Administrator\Desktop\MyWpfApp\MyWpfApp\obj\Debug\MyWpfApp.Properties.Resources.resources
+C:\Users\Administrator\Desktop\MyWpfApp\MyWpfApp\obj\Debug\MyWpfApp.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\MyWpfApp\MyWpfApp\obj\Debug\MyWpfApp.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\MyWpfApp\MyWpfApp\obj\Debug\MyWpfApp.exe
+C:\Users\Administrator\Desktop\MyWpfApp\MyWpfApp\obj\Debug\MyWpfApp.pdb

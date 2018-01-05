@@ -1,0 +1,7 @@
+E:\C#Work\Test1\bin\Debug\Test1.exe.config
+E:\C#Work\Test1\bin\Debug\Test1.exe
+E:\C#Work\Test1\bin\Debug\Test1.pdb
+E:\C#Work\Test1\obj\Debug\Test1.csprojResolveAssemblyReference.cache
+E:\C#Work\Test1\obj\Debug\Test1.csproj.CoreCompileInputs.cache
+E:\C#Work\Test1\obj\Debug\Test1.exe
+E:\C#Work\Test1\obj\Debug\Test1.pdb
